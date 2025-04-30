@@ -9,7 +9,7 @@ export default function Navbar() {
     const handledarkmode = () => {
         document.documentElement.classList.toggle('dark')
         document.getElementById('moon').classList.toggle('bi-moon-fill')
-        document.getElementById('moon').classList.toggle('bi-brightness-high')
+        document.getElementById('moon').classList.toggle('bi-brightness-high-fill')
     }
 
 
