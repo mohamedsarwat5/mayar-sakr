@@ -8,8 +8,8 @@ export default function Navbar() {
 
     const handledarkmode = () => {
         document.documentElement.classList.toggle('dark')
-        document.getElementById('moon').classList.toggle('bxs-moon')
-        document.getElementById('moon').classList.toggle('bxs-sun')
+        document.getElementById('moon').classList.toggle('bi-moon-fill')
+        document.getElementById('moon').classList.toggle('bi-brightness-high')
     }
 
 
@@ -25,7 +25,7 @@ export default function Navbar() {
                 </div>
                 <div className='flex items-center gap-3 md:order-1'>
                     <button type="button" className=" cursor-pointer ">
-                        <i id='moon' onClick={handledarkmode} className='bx bxs-moon text-[21px] cursor-pointer text-mred'></i>
+                        <i id='moon' onClick={handledarkmode} className='bi bi-moon-fill text-[21px] cursor-pointer text-mred'></i>
                     </button>
                     <button onClick={() => setIsOpen(!isOpen)} type="button" className="text-mred cursor-pointer md:hidden">
                         <i className={`${isOpen ? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px] `}></i>
