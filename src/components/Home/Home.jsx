@@ -8,7 +8,7 @@ export default function Home() {
             <div className='flex items-center   lg:justify-between justify-center !py-[200px] ccontainer flex-col-reverse lg:flex-row'>
 
                 <div className='md:w-8/12 text-center lg:text-left'>
-                    <h2 className='font-semibold lg:text-7xl text-3xl leading-11 lg:leading-[94px] dark:text-white'> <span className='text-mred block'>Hello,<span className='dark:text-white text-black'> I'm Mayar Sakr</span></span>   <span className='block'>Ui/Ux Designer</span> based in Egypt</h2>
+                    <h2 className='font-semibold lg:text-7xl text-3xl leading-11 lg:leading-[94px] dark:text-white'> <span className='text-mred block'>Hello,<span className='dark:text-white text-black'> I'm Mayar Sakr</span></span>   <span className='block'>UI/UX Designer</span> based in Egypt</h2>
                     <p className='mt-7 text-gray-600 dark:text-gray-400'>I’m a Creative UI UX Designer with a focus on creating exceptional user interfaces and websites.
                     With specialized training and hands-on experience.</p>
                     <div className='flex items-center mt-8 justify-center gap-5 lg:gap-10'>
