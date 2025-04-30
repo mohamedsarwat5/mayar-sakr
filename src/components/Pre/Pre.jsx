@@ -9,14 +9,14 @@ export default function Pre() {
     return (
         <>
 
-            <div className='h-16 lg:h-6 '></div>
+            {/* <div className='h-16 lg:h-6 '></div> */}
             <div className='ccontainer  overflow-hidden mx-auto flex flex-col items-center justify-center'>
                 <motion.h2
                     initial={{ opacity: 0, x: 200 }}
                     whileInView={{ opacity: 1, x: 0 }}
 
                     transition={{ duration: .4 }}
-                    className='lg:text-6xl text-3xl font-bold font-[poppins] text-center mb-11 text-mred'>
+                    className='lg:text-6xl text-3xl font-bold  text-center mb-11 text-mred'>
                     Featured Projects
                 </motion.h2>
 

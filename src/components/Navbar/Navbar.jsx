@@ -17,7 +17,7 @@ export default function Navbar() {
     return (<>
                 <div className={`${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-all duration-300 ease-in-out w-full h-full top-0 bottom-0 end-0 left-0 bg-light-red dark:bg-mblack  fixed z-20  lg:hidden`}></div>
 
-        <nav className={`  bg-light-red dark:bg-mblack shadow-lg dark:shadow-sm transition-colors duration-300 lg:dark:shadow-gray-700 dark:text-white  text-black  fixed top-0 z-40 w-full`}>
+        <nav className={`  bg-light-red dark:bg-mblack shadow-lg dark:shadow-sm transition-colors duration-300 lg:dark:shadow-gray-700 dark:text-white  text-black  fixed top-0 z-50 w-full`}>
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between py-5 mx-auto px-6">
                 <div className='flex items-center gap-3'>
                     <div className='bg-mred p-2 rounded-[8px]'><img className='w-7' src={logo} alt="" /></div>
