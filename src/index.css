@@ -29,5 +29,5 @@ body {
 
 .ccontainer{
 
-    @apply  lg:px-[120px] py-12 overflow-hidden px-6 mx-auto ;
+    @apply  lg:px-[120px] py-12 overflow-hidden px-6 mx-auto h-[100dvh] ;
 }
