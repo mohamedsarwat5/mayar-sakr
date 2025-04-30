@@ -11,7 +11,7 @@ export default function Services() {
 
             <div className='h-16 lg:h-6'></div>
 
-            <div className='bg-light-red dark:bg-black ccontainer flex flex-col items-center justify-center min-h-screen '>
+            <div className='bg-shadow-red dark:bg-black ccontainer flex flex-col items-center justify-center min-h-screen '>
 
 
 
@@ -28,7 +28,7 @@ export default function Services() {
                         whileInView={{ opacity: 1, scale: 1 }}
 
                         transition={{ duration: .4, }}
-                        className='lg:w-4/12 cursor-pointer   px-4 py-8 !h-[350px] flex flex-col text-center gap-3 rounded-4xl bg-shadow-red dark:bg-[#151515]'>
+                        className='lg:w-4/12 cursor-pointer   px-4 py-8 !h-[350px] flex flex-col text-center gap-3 rounded-4xl bg-light-red dark:bg-[#151515]'>
                         <img className='w-28 mx-auto mt-4' src={mob} alt="" />
                         <h3 className=' text-mred font-semibold text-3xl'>Mobile App</h3>
                         <p className='dark:text-white '>Mobile and designing many projects with innovative ideas and a unique approach to visuals</p>
@@ -48,7 +48,7 @@ export default function Services() {
                         whileInView={{ opacity: 1, scale: 1 }}
 
                         transition={{ duration: .4, }}
-                        className='lg:w-4/12 cursor-pointer   px-4 py-8 !h-[350px] flex flex-col text-center gap-3 rounded-4xl bg-shadow-red dark:bg-[#151515]'>
+                        className='lg:w-4/12 cursor-pointer   px-4 py-8 !h-[350px] flex flex-col text-center gap-3 rounded-4xl bg-light-red dark:bg-[#151515]'>
                         <img className='w-32 mx-auto mt-4' src={wb} alt="" />
                         <h3 className=' text-mred font-semibold text-3xl'>Web Design</h3>
                         <p className='dark:text-white '>Mobile and designing many projects with innovative ideas and a unique approach to visuals</p>
