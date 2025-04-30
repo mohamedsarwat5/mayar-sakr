@@ -9,6 +9,7 @@ export default function Services() {
     return (
         <>
 
+            <div className='h-16 lg:h-6'></div>
 
             <div className='bg-lblack ccontainer flex flex-col items-center justify-center min-h-screen '>
 

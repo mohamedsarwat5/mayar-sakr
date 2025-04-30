@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Home() {
     return (
         <>
-
+            <div className='h-16 lg:h-6 '></div>
             <div className='flex items-center   lg:justify-between justify-center  min-h-screen ccontainer flex-col-reverse lg:flex-row'>
 
                 <div className='md:w-8/12 text-center lg:text-left'>
