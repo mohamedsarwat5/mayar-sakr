@@ -15,7 +15,7 @@ export default function Navbar() {
 
     const [isOpen, setIsOpen] = useState(false)
     return (<>
-                {/* <div className={`${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-all duration-300 ease-in-out w-full h-full top-0 bottom-0 end-0 left-0 bg-light-red dark:bg-mblack  fixed z-20  lg:hidden`}></div> */}
+                <div className={`${isOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} transition-all duration-300 ease-in-out w-full h-full top-0 bottom-0 end-0 left-0 bg-light-red dark:bg-mblack  fixed z-20  lg:hidden`}></div>
 
         <nav className={`  bg-light-red dark:bg-mblack shadow-lg dark:shadow-sm transition-colors duration-300 lg:dark:shadow-gray-700 dark:text-white  text-black  fixed top-0 z-40 w-full`}>
             <div className="max-w-screen-xl flex flex-wrap items-center  justify-between py-5 mx-auto px-6">
