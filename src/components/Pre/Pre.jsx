@@ -24,7 +24,11 @@ export default function Pre() {
 
                 <div className='flex flex-col lg:flex-row gap-4'>
 
-                    <div className='lg:w-4/12 flex flex-col '>
+                    <motion.div
+                        initial={{ opacity: 0, scale: .8 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: .4, delay: .3 }}
+                        className='lg:w-4/12 flex flex-col '>
                         <div className='relative'>
                             <img className='rounded-4xl' src={ling} alt="" />
                             <div className='absolute top-0  bottom-0 left-0 end-0 bg-[#0000004d] rounded-4xl z-40 layer opacity-0 !ease-in-out flex items-center justify-center'>
@@ -34,8 +38,12 @@ export default function Pre() {
                             </div>
                         </div>
                         <p className='pl-3 mt-3 dark:text-white'>Linguista- Design Thinking</p>
-                    </div>
-                    <div className='lg:w-4/12 flex flex-col '>
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, scale: .8 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: .4, delay: .3 }}
+                        className='lg:w-4/12 flex flex-col '>
                         <div className='relative'>
                             <img className='rounded-4xl' src={petty} alt="" />
                             <div className='absolute top-0  bottom-0 left-0 end-0 bg-[#0000004d] rounded-4xl z-40 layer opacity-0 !ease-in-out flex items-center justify-center'>
@@ -45,18 +53,22 @@ export default function Pre() {
                             </div>
                         </div>
                         <p className='pl-3 mt-3 dark:text-white'>Petty - Responsive Design</p>
-                    </div>
-                        <div className='lg:w-4/12 flex flex-col '>
-                            <div className='relative'>
-                                <img className='rounded-4xl' src={food} alt="" />
-                                <div className='absolute top-0  bottom-0 left-0 end-0 bg-[#0000004d] rounded-4xl z-40 layer opacity-0 !ease-in-out flex items-center justify-center'>
-                                    <a href='https://www.behance.net/gallery/163508497/Foodi-Mobile-App' target='_blank' className='flex items-center justify-center'>
-                                        <i className=' fa-solid fa-arrow-up cursor-pointer w-22 h-22 rounded-full   text-white bg-mred  !flex !items-center !justify-center text-[34px] rotate-45'></i>
-                                    </a>
-                                </div>
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, scale: .8 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: .4, delay: .3 }}
+                        className='lg:w-4/12 flex flex-col '>
+                        <div className='relative'>
+                            <img className='rounded-4xl' src={food} alt="" />
+                            <div className='absolute top-0  bottom-0 left-0 end-0 bg-[#0000004d] rounded-4xl z-40 layer opacity-0 !ease-in-out flex items-center justify-center'>
+                                <a href='https://www.behance.net/gallery/163508497/Foodi-Mobile-App' target='_blank' className='flex items-center justify-center'>
+                                    <i className=' fa-solid fa-arrow-up cursor-pointer w-22 h-22 rounded-full   text-white bg-mred  !flex !items-center !justify-center text-[34px] rotate-45'></i>
+                                </a>
                             </div>
-                            <p className='pl-3 mt-3 dark:text-white'>Foodi Mobile App</p>
                         </div>
+                        <p className='pl-3 mt-3 dark:text-white'>Foodi Mobile App</p>
+                    </motion.div>
 
                 </div>
 
