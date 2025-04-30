@@ -15,7 +15,7 @@ export default function About() {
                         initial={{ x: -100, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: .5 }}
-                        className='font-semibold lg:text-7xl text-3xl leading-11 lg:leading-[94px] dark:text-white'> <span className='text-mred block'>Hello,<span className='dark:text-white text-black'> I'm Mayar Sakr</span></span>   <span className='block'>UI/UX Designer</span> based in Egypt</motion.h2>
+                        className='font-semibold lg:text-7xl text-3xl leading-11 lg:leading-[94px] dark:text-white'> <span className='text-mred block'>Hello,<span className='dark:text-white text-black'> I'm Mayar Sakr</span></span>   <span className='block'>UI/UX Designer</span> </motion.h2>
                     <motion.p
                         initial={{ x: -100, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
