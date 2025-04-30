@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import { Outlet, useLocation } from 'react-router-dom'
 import { AnimatePresence } from "framer-motion";
 import Footer from '../Footer/Footer'
+import TopBtn from "../TopBtn/TopBtn";
 
 export default function Layout() {
     const { pathname } = useLocation();
@@ -13,6 +14,7 @@ export default function Layout() {
     return (
         <>
             <Navbar></Navbar>
+            <TopBtn></TopBtn>
             <AnimatePresence mode="wait">
                 <Outlet key={pathname}></Outlet>
             </AnimatePresence>
