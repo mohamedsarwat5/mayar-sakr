@@ -4,7 +4,7 @@
 
 
 
-@theme{
+@theme {
     --color-mred: #CA3537;
     --color-light-red: #E4E1E1;
     --color-shadow-red: #DCC8C8;
@@ -23,23 +23,28 @@ body {
     font-style: normal;
 }
 
-.active{
+.active {
     color: var(--color-mred);
 }
 
-.ccontainer{
+.ccontainer {
 
-    @apply  lg:px-[120px] py-12 overflow-hidden px-6 mx-auto h-[100dvh] ;
+    @apply lg:px-[120px] py-12 overflow-hidden px-6 mx-auto;
 }
 
-.bt1:hover{
- color: var(--color-mred);
- border-color: var(--color-mred);
- background-color: transparent;
+.bt1:hover {
+    color: var(--color-mred);
+    border-color: var(--color-mred);
+    background-color: transparent;
 }
 
-.bt2:hover{
+.bt2:hover {
     color: white;
     border-color: var(--color-mred);
     background-color: var(--color-mred);
-   }
+}
+
+/* .card:hover {
+
+    background: var(--color-mred);
+} */
