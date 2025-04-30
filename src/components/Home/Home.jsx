@@ -3,6 +3,7 @@ import Marquee from "react-fast-marquee";
 import img from "../../assets/img.png";
 import Services from '../Services/Services';
 import { motion } from "framer-motion";
+import Pre from '../Pre/Pre';
 
 export default function Home() {
     return (
@@ -43,9 +44,7 @@ export default function Home() {
             </div>
 
             <Services></Services>
-
-
-
+            <Pre></Pre>
 
 
         </>

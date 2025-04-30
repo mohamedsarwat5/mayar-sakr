@@ -48,3 +48,12 @@ body {
 
     background: var(--color-mred);
 } */
+
+.layer:hover{
+    opacity: 1;
+}
+
+.layer{
+    transition: all .5s ease-in-out;
+
+}
