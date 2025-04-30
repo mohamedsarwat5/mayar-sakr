@@ -4,6 +4,7 @@ import img from "../../assets/img.png";
 import Services from '../Services/Services';
 import { motion } from "framer-motion";
 import Pre from '../Pre/Pre';
+import Contact from '../Contact/Contact';
 
 export default function Home() {
     return (
@@ -45,7 +46,7 @@ export default function Home() {
 
             <Services></Services>
             <Pre></Pre>
-
+            <Contact></Contact>
 
         </>
     )
