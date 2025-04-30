@@ -25,9 +25,9 @@ export default function Navbar() {
                 </div>
                 <div className='flex items-center gap-3 md:order-1'>
                     <button type="button" className=" cursor-pointer ">
-                        <i id='moon' onClick={handledarkmode} className='bx bxs-moon text-[21px] cursor-pointer '></i>
+                        <i id='moon' onClick={handledarkmode} className='bx bxs-moon text-[21px] cursor-pointer text-mred'></i>
                     </button>
-                    <button onClick={() => setIsOpen(!isOpen)} type="button" className=" cursor-pointer md:hidden">
+                    <button onClick={() => setIsOpen(!isOpen)} type="button" className="text-mred cursor-pointer md:hidden">
                         <i className={`${isOpen ? 'fa-xmark' : 'fa-bars'} fa-solid  text-[22px] `}></i>
                     </button>
                 </div>
