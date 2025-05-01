@@ -28,7 +28,7 @@ export default function Home() {
                         initial={{ x: -100, opacity: 0 }}
                         whileInView={{ x: 0, opacity: 1 }}
                         transition={{ duration: .5, delay: .3 }}
-                        className='flex items-center mt-8 justify-center gap-5 lg:gap-10'>
+                        className='flex items-center mt-8  gap-5 lg:gap-10'>
                         <a className='bt1 flex items-center gap-2  bg-mred py-3 px-5 lg:px-9 rounded-4xl text-white hover:bg-transparent hover:text-mred border-transparent hover:border-mred border duration-300' href="mailto:mayarsakr2000@gmail.com"> <i class='bx bx-envelope' ></i> Email me</a>
                         <a href="" className='bt2 hover:border-transparent duration-300 flex items-center gap-2 border-mred border text-mred hover:text-white  hover:bg-mred py-3 px-5 lg:px-9 rounded-4xl '>Download CV <i class='bx bx-download text-[20px]'></i></a>
                     </motion.div>

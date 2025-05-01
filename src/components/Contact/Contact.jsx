@@ -27,7 +27,7 @@ export default function Contact() {
                         <h2 className='lg:text-5xl text-3xl font-bold lg:leading-14 dark:text-white mb-7'><span className='block'>Are You <span className='text-mred '>Ready</span> </span>to kickstart your project with a touch of magic?
                         </h2>
                         <p className='text-gray-700 dark:text-gray-400 text-[18px]'>Contact me for questions, collaboration, conversation, or just saying hello. Thank you for stopping by here.</p>
-                        <div className='flex items-center text-mred justify-center gap-8 text-3xl mx-auto mt-6 '>
+                        <div className='flex items-center text-mred  gap-8 text-3xl mx-auto mt-6 '>
                             <a href='https://www.facebook.com/share/1GvHVVEWRC/' target='_blank'>
                                 <i className='cursor-pointer  hover:text-orange duration-300 fa-brands fa-facebook-f'></i>
                             </a>
